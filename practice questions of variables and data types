@@ -1,0 +1,26 @@
+# write a programme to input 2 numbers & print therir sum
+first = int(input("enter first : "))
+second = int(input("enter second :"))
+
+print("sum =", first + second)
+
+
+
+#write a programme to input of a square & print its. area
+side = float(input("enter square side : "))
+print("area =", side * side)
+
+
+#write to input 2 floating point numbers & print their average
+a = float(input("enter first : "))
+b = float(input("enter second :"))
+print("avg =", (a+b)/2)
+
+
+
+#wap to input 2 int number a, and b.
+#print true if is grater than or equal to b.if not print false
+a = int(input("enter first : "))
+b = int(input("enter second : "))
+
+print(a >= b)
